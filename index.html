@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+   <header>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/pk-initial-circle-logo-template-vector 2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Portfolio</a></li>
+                    <li> <a href="#">Content</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Prem Kumar</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+   </header>
+   <!-------------- about -------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/prem123-Photoroom.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Prem Kumar, a third-year undergraduate student with a keen interest in technology,
+                    data analysis, and software development. I come from a business-oriented family, which has inspired me to merge traditional business practices with modern digital solutions.
+                    My academic journey has helped me build a strong foundation in programming languages such as Java, DSA, Excel, R,Python,C,C++ and SQL along with web development skills using HTML, CSS, and MongoDB.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Excel</span><br>kuch kuch</li>
+                            <li><span>Web Development</span><br>web app development</li>
+                            <li><span>Analysing Data</span><br>Analysing data</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Intern - Data Analyst</span><br>Worked on Excel and Power BI dashboards for internal reporting.</li>
+                            <li><span>Web Developer Intern</span><br>Developed dynamic webpages using HTML, CSS, JavaScript.</li>
+                            <li><span>Freelance Projects</span><br>Built small websites for local businesses.</li>
+                        </ul>
+                    </div>          
+                   <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology (B.Tech)</span><br>XYZ University — Computer Science (2022–2026)</li>
+                            <li><span>Intermediate</span><br>ABC School — Science Stream (2020–2022)</li>
+                            <li><span>High School</span><br>ABC School — Completed with distinction (2018–2020)</li>
+                        </ul>
+                    </div>                               
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- -------------- services ----------- -->
+
+   <div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style="font-size: 40px; color: white; margin-bottom: 25px;"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur distinctio sed voluptatum repudiandae, officiis voluptatem corrupti quasi quam incidunt atque voluptate explicabo veniam eaque ab architecto? Facilis reiciendis minus ipsa.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-line" style="font-size: 40px; color:white; margin-bottom: 25px"></i>
+                <h2>Data Analyst</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur distinctio sed voluptatum repudiandae, officiis voluptatem corrupti quasi quam incidunt atque voluptate explicabo veniam eaque ab architecto? Facilis reiciendis minus ipsa.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code" style="font-size: 40px; color: white; margin-bottom: 25px"></i>
+                <h2>DSA</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur distinctio sed voluptatum repudiandae, officiis voluptatem corrupti quasi quam incidunt atque voluptate explicabo veniam eaque ab architecto? Facilis reiciendis minus ipsa.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-- ------------------portfolio------------------ -->
+<div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/6-dec-How-to-Become-a-Data-Analyst-in-South-Africa.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>bjsxbsjbucvusvcusvchsuvchudvchuvch</p>
+                    <a href="#"><i class="fa-solid fa-database" style="font-size: 48px; color: #9C27B0;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/6-dec-How-to-Become-a-Data-Analyst-in-South-Africa.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>bjsxbsjbucvusvcusvchsuvchudvchuvch</p>
+                    <a href="#"><i class="fa-solid fa-database" style="font-size: 48px; color: #9C27B0;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/6-dec-How-to-Become-a-Data-Analyst-in-South-Africa.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>bjsxbsjbucvusvcusvchsuvchudvchuvch</p>
+                    <a href="#"><i class="fa-solid fa-database" style="font-size: 48px; color: #9C27B0;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- --------------------contact---------------------- -->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-envelope" style="font-size: 20px; color: #fff;"></i> contact@exmple.com</p>
+                <p><i class="fas fa-phone-alt" style="font-size: 20px; color: #fff;"></i>
+                    2616w725715</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="linkedin">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="https://www.instagram.com/your-username" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="https://twitter.com/your-username" target="_blank" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                      </a>                               
+                </div>
+                <a href="Images/Pasted Graphic.png" download class="btn btn2">Download CV</a> <!---yaha apna cv attach kar dena -->
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Messege" rows="6" placeholder="Write something"></textarea>
+                    <button type="submit" class="btn btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copywrite and all is here and add some logo</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname, event) {
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+</body>
+</html>
